@@ -1,0 +1,62 @@
+# Site settings
+title: Косметолог Сумы 
+description: Косметлогия для Вас
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url: svg/min/logo.svg
+
+# Hero
+hero: 
+    hero_img: hero.jpg
+    hero_title: Косметолог Сумы
+    hero_description: Косметлогия для Вас
+
+# Contact form
+api_token: # Enter API token here
+
+# Contact info
+contact:
+    phone: 095 793 25 50
+    #emergency: 931 53 234
+    #email: contact@yoursite.com
+    address: г. Сумы, ул. Леваневского, 16, Салон красоты "Элегант"
+
+
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.jpg
+
+# Map
+xmap:
+    zoom: 17
+    address: г. Сумы, ул. Леваневского, 16, Салон красоты "Элегант"
+    address_details: svg/min/logo.svg
+
+# Social settings
+xfacebook: http://facebook.com
+xtwitter: http://twitter.com
+xinstagram: http://instagram.com
+xyoutube: http://youtube.com
+xskype: skype:obaez_design?userinfo
+xfeed: yes
+
+# Footer
+copyright: © 2018 Косметолог Сумы
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics: true
+google_verification:

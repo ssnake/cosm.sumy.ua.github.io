@@ -1,0 +1,47 @@
+- icon: icon-user-md
+  title: Массаж лица, шеи и декольте
+  description: Косметический, лифтинговый, вакуумно-роликовый, гуаши
+
+- icon: icon-diamond
+  title: Атравматическая чистка
+  description: глубокое очищение кожи с ультразвуком
+
+- icon: icon-flask
+  title: Фонофорез
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+
+- icon: icon-globe
+  title: Пилинги
+  description: Химический, энзимный, ультразвуковой
+
+- icon: icon-ambulance
+  title: Различные программы ухода за лицом и телом
+  description: Экспресс-увлажнение, Анти-акне, Анти-купероз, Магия взгляда, Бархатные ручки, Антицеллюлитная программа, Коррекция подбородка
+
+- icon: icon-bed
+  title: Мезотерапия
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+
+- icon: icon-bed
+  title: Биоревитализация
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+
+- icon: icon-bed
+  title: Восковая депиляция
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+
+- icon: icon-ambulance
+  title: Макияж
+  description: Экспресс-увлажнение, Анти-акне, Анти-купероз, Магия взгляда, Бархатные ручки, Антицеллюлитная программа, Коррекция подбородка
+
+- icon: icon-bed
+  title: Пирсинг
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+
+- icon: icon-bed
+  title: Бикини-дизайн
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+
+- icon: icon-bed
+  title: Faceforming
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?

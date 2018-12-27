@@ -1,0 +1,163 @@
+---
+layout: default
+---
+
+<!-- Start Hero -->
+<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover; background-position: 0% 10%; ">
+    <div class="hero-content">
+        <div class="container-fluid">
+            <div class="hero-content-inner">
+                <!-- <h1>{{ site.hero.hero_title }}</h1> -->
+                <!-- <p>{{ site.hero.hero_description }}</p> -->
+            </div>
+        </div>
+    </div>
+
+<!--     <div class="container-fluid">
+        
+        <div class=" form">
+
+        </div>
+
+    </div> -->
+</div>
+<!-- End Hero -->
+
+<!-- Start 3 columns -->
+<div class="three-shade-col">
+    <div class="col-sm-4">
+        <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
+        <h3>Контакты</h3>
+        <ul>
+            {% if site.contact.phone %}<li><strong>Телефон:</strong> {{ site.contact.phone }}</li>{% endif %}
+            {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
+            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
+        </ul>
+    </div>
+    <div class="col-sm-4">
+        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
+        <h3>Время работы косметолога</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Четверг</td>
+                    <td>10:00 – 19:00</td>
+                </tr>
+                <tr>
+                    <td>Суббота</td>
+                    <td>10:00 – 19:00</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm-4">
+        <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+        <h3>Адрес</h3>
+            <p>
+                {{ site.contact.address }}
+            </p>
+    </div>
+</div>
+<!-- End 3 columns -->
+
+<!-- Start About -->
+<div id="about" class="about">
+    <div class="container-fluid">
+        <h2 class="section-title">О нас</h2>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Естественно стремление женщины</h3>
+                <p>подольше сохранить свежесть, подтянутость и красоту своей кожи. Но если кожа проблемная, либо уже приближаются возрастные инволюционно-дистрофические изменения кожи, то конечно необходимо посетить профессионала-косметолога.
+                  "Молодая красивая женщина - чудо природы, а красивая женщина в летах - произведение искусства".
+                   Секрет того, как избежать старения, пока никем не раскрыт. Но врачи и косметологи научились эффективно замедлять этот процесс, нивелировать его внешние признаки и, тем самым, продлевать человеку молодость. </p>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>доступная стоимость услуг</p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>используется профессиональная косметика известных брендов, "живая" косметика, возможно ее приобретение</p>
+                    </div>
+                </div>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>широкий спектр услуг</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>профессионал-косметолог с богатым опытом работы</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>высокое качество и эффективность процедур</p>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-sm-6">
+                <img src="img/about.jpg" alt="...">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End About -->
+
+<!-- Start Treatments -->
+<div id="treatments" class="treatments">
+    <div class="container-fluid">
+        <h2 class="section-title">Процедуры</h2>
+
+        <div class="row">
+            {% for treatment in site.data.treatments %}
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
+                        <h4>{{ treatment.title }}</h4>
+                        <p>{{ treatment.description }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- End Treatments -->
+
+
+
+
+
+<!-- Start Map -->
+<!-- <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div> -->
+<!-- End Map -->
