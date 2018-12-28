@@ -30,6 +30,7 @@ layout: default
         <h3>Контакты</h3>
         <ul>
             {% if site.contact.phone %}<li><strong>Телефон:</strong> {{ site.contact.phone }}</li>{% endif %}
+            <li>Мастер Любовь Владимировна</li>
             {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
             {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
         </ul>
@@ -143,7 +144,10 @@ layout: default
             {% for treatment in site.data.treatments %}
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
-                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
+                        
+                        <span style="font-size: 48px; color: #3dadb2;">
+                            <span class="fas {{ treatment.icon }}"></span>
+                        </span>
                         <h4>{{ treatment.title }}</h4>
                         <p>{{ treatment.description }}</p>
                     </div>
@@ -159,6 +163,16 @@ layout: default
 
 
 <!-- Start Map -->
-<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
+<div class="container-fluid">
+   
+    <iframe 
+      width="100%"
+      height="250"
+      frameborder="0" style="border:0"
+      src="https://www.google.com/maps/embed/v1/place?key={{ site.google_key }}
+        &q={{site.contact.address}}" allowfullscreen>
+    </iframe>
+       
+</div>
 <!-- End Map -->
  

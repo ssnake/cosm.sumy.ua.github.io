@@ -1,47 +1,47 @@
-- icon: icon-user-md
+- icon: fa-smile-beam 
   title: Массаж лица, шеи и декольте
-  description: Косметический, лифтинговый, вакуумно-роликовый, гуаши
+  description: косметический, лифтинговый, вакуумно-роликовый, гуаши
 
-- icon: icon-diamond
+- icon: fa-broom
   title: Атравматическая чистка
   description: глубокое очищение кожи с ультразвуком
 
-- icon: icon-flask
+- icon: fa-water
   title: Фонофорез
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  description: метод физиотерапевтического лечения, сочетающий ультразвуковое и медикаментозное воздействие
 
-- icon: icon-globe
+- icon: fa-drum-steelpan 
   title: Пилинги
-  description: Химический, энзимный, ультразвуковой
+  description: химический, энзимный, ультразвуковой
 
-- icon: icon-ambulance
+- icon: fa-leaf
   title: Различные программы ухода за лицом и телом
   description: Экспресс-увлажнение, Анти-акне, Анти-купероз, Магия взгляда, Бархатные ручки, Антицеллюлитная программа, Коррекция подбородка
 
-- icon: icon-bed
+- icon: fa-syringe
   title: Мезотерапия
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: может спасти от пигментных пятен, целлюлита, морщин, тусклого цвета лица, дряблости кожи, угрей и проблем с волосами
 
-- icon: icon-bed
+- icon: fa-laugh-beam 
   title: Биоревитализация
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: заметно уменьшаются дряблость и сухость, восстанавливаются цвет и тонус кожи
 
-- icon: icon-bed
+- icon: fa-thumbs-up 
   title: Восковая депиляция
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: регулярный ваксинг делает волосы более мягкими и тонкими.
 
-- icon: icon-ambulance
+- icon: fa-magic 
   title: Макияж
-  description: Экспресс-увлажнение, Анти-акне, Анти-купероз, Магия взгляда, Бархатные ручки, Антицеллюлитная программа, Коррекция подбородка
+  description: экспресс-увлажнение, анти-акне, анти-купероз, магия взгляда, бархатные ручки, антицеллюлитная программа, коррекция подбородка
 
-- icon: icon-bed
+- icon: fa-thumbtack 
   title: Пирсинг
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: одно из самых модных на сегодняшний день направлений в украшательстве своего любимого лица и красивого тела
 
-- icon: icon-bed
+- icon: fa-venus 
   title: Бикини-дизайн
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: это супер
 
-- icon: icon-bed
+- icon: fa-kiss-wink-heart 
   title: Faceforming
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: эффективно противостоит возрастным изменениям.
