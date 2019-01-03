@@ -41,6 +41,10 @@ layout: default
         <table>
             <tbody>
                 <tr>
+                    <td>Вторник</td>
+                    <td>10:00 – 19:00</td>
+                </tr>
+                <tr>
                     <td>Четверг</td>
                     <td>10:00 – 19:00</td>
                 </tr>
@@ -92,7 +96,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>используется профессиональная косметика известных брендов, "живая" косметика, возможно ее приобретение</p>
+                        <p>используется профессиональная косметика известных брендов</p>
                     </div>
                 </div>
 
@@ -163,16 +167,18 @@ layout: default
 
 
 <!-- Start Map -->
+
 <div class="container-fluid">
-   
-    <iframe 
-      width="100%"
-      height="250"
-      frameborder="0" style="border:0"
-      src="https://www.google.com/maps/embed/v1/place?key={{ site.google_key }}
-        &q={{site.contact.address}}" allowfullscreen>
-    </iframe>
-       
+    <div id="location" class="map">   
+        <iframe 
+          width="100%"
+          height="250"
+          frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?key={{ site.google_key }}
+            &q={{site.contact.address}}" allowfullscreen>
+        </iframe>
+           
+    </div>
 </div>
 <!-- End Map -->
  

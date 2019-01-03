@@ -1,6 +1,6 @@
 - icon: fa-smile-beam 
   title: Массаж лица, шеи и декольте
-  description: косметический, лифтинговый, вакуумно-роликовый, гуаши
+  description: косметический, лифтинговый, гуаша
 
 - icon: fa-broom
   title: Атравматическая чистка
@@ -32,16 +32,9 @@
 
 - icon: fa-magic 
   title: Макияж
-  description: экспресс-увлажнение, анти-акне, анти-купероз, магия взгляда, бархатные ручки, антицеллюлитная программа, коррекция подбородка
+  description: 
 
 - icon: fa-thumbtack 
   title: Пирсинг
-  description: одно из направлений в украшательстве своего любимого лица и красивого тела
+  description: пирсинг мочки уха
 
-- icon: fa-venus 
-  title: Бикини-дизайн
-  description: это супер
-
-- icon: fa-kiss-wink-heart 
-  title: Faceforming
-  description: эффективно противостоит возрастным изменениям.
