@@ -59,4 +59,5 @@ exclude: [
 
 # Theme Settings
 analytics: true
+pixel: true
 google_key: AIzaSyCgNIUUWvmdOEqoKmbhAc4UIbQcG99DIvM
