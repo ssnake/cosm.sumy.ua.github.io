@@ -61,5 +61,7 @@ exclude: [
 analytics: true
 pixel: true
 google_key: AIzaSyCgNIUUWvmdOEqoKmbhAc4UIbQcG99DIvM
+
+url: "http://cosm.sumy.ua" # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
