@@ -38,3 +38,26 @@
         font-size: 1.125rem;
     }
 }
+
+.logo_front {
+    .lg {
+        position: relative;
+        padding: 25px;
+    }
+    .md {
+        position: relative;
+        padding: 25px;
+    }
+
+    .sm {
+        position: relative;
+        padding: 25px;
+        width: 50%;
+    }
+    .xs {
+        position: absolute;
+        padding: 25px;
+        width: 50%;
+        bottom: 0px;
+    }
+}

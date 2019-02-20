@@ -6,6 +6,9 @@ url: "" # the name of your domain
 logo_url: svg/min/heart.svg
 
 # Hero
+logo:
+    back_img: hero_1.png
+    front_img: cosm-logo-mainpage.png
 hero: 
     hero_img: hero_1.png
     hero_title: Косметолог Сумы
@@ -42,7 +45,7 @@ xskype: skype:obaez_design?userinfo
 xfeed: yes
 
 # Footer
-copyright: © 2018 Косметолог Сумы
+copyright: © 2019 Косметолог Сумы
 
 # Build settings
 markdown: kramdown
